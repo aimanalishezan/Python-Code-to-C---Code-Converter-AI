@@ -14,6 +14,7 @@ load_dotenv()
 
 #inetialize the model
 openai=OpenAI
+#define the model name as you want which model 
 OPENAI_MODEL="gpt-4o-mini"
 
 
