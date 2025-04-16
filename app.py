@@ -17,7 +17,7 @@ openai=OpenAI
 #define the model name as you want which model 
 OPENAI_MODEL="gpt-4o-mini"
 
-
+#code for the output
 def write_output(code, file_name):
     "Write the generated code to a file."
     with open (file_name, "w") as f:
