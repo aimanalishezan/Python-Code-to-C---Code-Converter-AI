@@ -1,3 +1,4 @@
+#import all required library 
 import os 
 import io
 import sys
@@ -8,8 +9,10 @@ from IPython.display import Markdown,display,update_display
 import gradio as gr
 import subprocess
 
-
+#load the key from env file
 load_dotenv()
+
+#inetialize the model
 openai=OpenAI
 OPENAI_MODEL="gpt-4o-mini"
 
